@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    height: 92vh;
+    padding: 2vh 1%;
+}
+
+.stat__block {
+    width: 100%;
+    height: 60vh;
+    background: var(--box);
+
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 #777;
+    /* padding: 15px; */
+    display: flex;
+}
+
+.mounth__stat__box {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.mounth__inner__box {
+    width: 100%;
+    height: 90%;
+    border-bottom: 1px solid #333;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mounth__text {
+    height: 10%;
+    padding: 2vh 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+
+.stat__count {
+    margin-bottom: 2vh;
+}
+
+.stat__box {
+    width: 20%;
+    
+    background: linear-gradient(to top, var(--bloc), rgb(21, 80, 218));
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 auto;
+}
+
+.all__kuba {
+    width: 100%;
+    text-align: center;
+}
+
+.all__kuba h2 {
+    margin-top: 2vh;
+    text-transform: uppercase;
+}
+
+.kuba__count__box {
+    width: 20%;
+    height: 13vh;
+    border: 4px var(--bloc) solid;
+
+    margin: 3vh auto 0;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.count__text {
+    font-size: 3.2vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+

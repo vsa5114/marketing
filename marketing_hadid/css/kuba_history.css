@@ -1,0 +1,157 @@
+.container {
+    width: 100%;
+    height: 92vh;
+
+    padding: 2vh 1%;
+    /* background: red; */
+}
+
+.history__block {
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+}
+
+.kuba__title {
+    width: 100%;
+    height: 7%;
+    /* background: red; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kuba__type {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.time__box {
+    width: 100%;
+    height: 10%;
+    /* background: red; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.history__box {
+    width: 100%;
+    height: 93%;
+
+    background: var(--box);
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px #333;
+
+    overflow: hidden;
+}
+
+.history__box.age {
+    width: 100%;
+    height: 83%;
+}
+
+.history__box__header {
+    width: 100%;
+    height: 9%;
+
+    background: var(--bloc);
+
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 15px;
+
+    text-transform: uppercase;
+}
+
+.history__title {
+    flex: 1 1 0;
+    font-weight: 700;
+    font-size: 1.3vw;
+
+}
+
+.history__inner__box {
+    width: 100%;
+    height: 91%;
+    /* background: red; */
+    overflow-y: scroll;
+}
+
+.history__inner__block {
+    width: 100%;
+    padding: 1.5vh 0 1.5vh 15px;
+
+    border-bottom: 1px solid #333;
+    display: flex;
+}
+
+.history__inner__text {
+    flex: 1 1 0;
+}
+
+.kuba__summa {
+    width: 20%;
+    height: 10vh;
+    /* background: red; */
+    border-radius: 15px;
+    padding: 15px;
+    border: 3px var(--bloc) solid;
+    margin: 3vh auto;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+
+.kuba__summa__text {
+    width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .kuba__title {
+        font-size: 5vw;
+    }
+
+    .kuba__type {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 0 1vh;
+    }
+
+    .history__title {
+        font-size: 2vw;
+    }
+
+    .history__inner__text {
+        font-size: 2vw;
+    }
+
+    .kuba__summa {
+        width: 50%;
+        height: 8vh;
+        font-size: 7vw;
+    }
+
+    .kuba__summa__text {
+        font-size: 3.3vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
